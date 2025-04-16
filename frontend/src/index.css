@@ -1,0 +1,53 @@
+body{
+  overflow-x: hidden;
+}
+
+.dropdown-menu{
+  width: 100%;
+
+}
+
+
+.ecosystem{
+  width:600px;
+}
+
+.pressLogo{
+  margin: 0 auto;
+}
+
+.zero{
+  font-size: 10px;
+
+}
+
+.mutual-pricing{
+  width: 400px;
+  height: 100px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.copyright{
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.row-1 ul  li {
+list-style: none;
+}
+
+.row-2{
+  font-size: 10.4px;
+}
+
+.UC{
+  font-size: 13px;
+}
+
+.child input{
+  border: none;
+  outline: none;
+}
