@@ -4,6 +4,7 @@ import React from "react";
 import UniverseCompany from "./UniverseCompany";
 
 const Universe = () => {
+  let url = import.meta.env.VITE_DASHBOARD_URL;
   return (
     <div className='contaner py-5'>
       <div className='row py-5'>
@@ -65,7 +66,7 @@ const Universe = () => {
         </div>
 
         <div className="text-center">
-            <button type="button" className="btn btn-primary btn-lg rounded">Sign up for free</button>
+            <button type="button" className="btn btn-primary btn-lg rounded"><a className="text-decoration-none text-white" href={url}>Sign up for free</a></button>
         </div>
 
     </div>

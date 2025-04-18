@@ -4,6 +4,7 @@ import ProductSection from './ProductSection'
 import Universe from './Universe'
 
 const ProductPage = () => {
+  let url = import.meta.env.VITE_DASHBOARD_URL;
   return (
     <>
       <Hero/>
