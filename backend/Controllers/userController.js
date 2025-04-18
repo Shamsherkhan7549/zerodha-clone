@@ -1,4 +1,3 @@
-import passport from "passport";
 import USERMODEL from "../Models/UserModel.js";
 import crypto from 'crypto';
 import dotenv from 'dotenv';
@@ -6,7 +5,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // import sendEmail from "../utils/sendemail.js"; //own mailer logic
-const url = process.env.VITE_FRONTEND_URL;
 const signUpController = async(req, res) => {
    try{
 
