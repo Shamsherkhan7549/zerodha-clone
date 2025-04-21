@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 
 const Login = () => {
+  const url = import.meta.env.VITE_BACKEND_URL;
 
     const[register, setRegister] = useState("login");
 
@@ -18,14 +19,11 @@ const Login = () => {
     const handlingSubmit = async(e) =>{
       e.preventDefault();
       
-      const url = import.meta.env.VITE_BACKEND_URL;
      if(register === "signup"){
        try {
 
           let response = await axios.post(url + '/user/signup',userInfo);
           if(response.data.success){
-            setUserInfo(prevInfo=>({...prevInfo, username:"",email:"",phone:"",password:""}));
-
             const user = {
               username:response.data.user.username,
               token:response.data.user.verificationToken
@@ -45,7 +43,7 @@ const Login = () => {
       try {
 
           const{username,password} = userInfo;
-          let response = await axios.post(url + '/user/login',{username, password},{withCredentials:true});
+          let response = await axios.post(url + '/user/login',{username, password});
           if(response.data.success){
             const user = {
               username:response.data.user.username,
@@ -54,10 +52,14 @@ const Login = () => {
             localStorage.setItem("user", JSON.stringify(user));
             window.location.reload();
           }else{
+           
             console.log(response.data.message)
           }
         }catch (error) {
-        console.log(error.message);
+          console.log("username or password is wrong.")
+          setUserInfo({username:"", password:""});
+          console.log(error.message);
+
       }}}
 
     

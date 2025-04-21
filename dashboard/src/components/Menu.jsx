@@ -39,12 +39,11 @@ const Menu = ({username}) => {
    try {
     const url = import.meta.env.VITE_BACKEND_URL;
     const response = await axios.post(url + '/user/logout');
+    console.log(response)
     if(response.data.success){
       console.log(response.data.message);
       localStorage.removeItem("user")
       window.location.reload();
-
-    
     }else{
       console.log(response.data.message)
     }

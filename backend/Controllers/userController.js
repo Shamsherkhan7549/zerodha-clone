@@ -1,3 +1,4 @@
+import passport from "passport";
 import USERMODEL from "../Models/UserModel.js";
 import crypto from 'crypto';
 import dotenv from 'dotenv';
@@ -39,27 +40,16 @@ const signUpController = async(req, res) => {
 
 const loginController = async(req, res) => {
  try {
-  return res.redirect('/user/login/success')
- 
+  if(req.user) return res.status(200).json({success:true, user:req.user})
  } catch (error) {
-  
-  return res.status(500).json({success:false, message:error.message})
-  
- }
+  return res.redirect('/user/loginFailed')
+ }};
 
+const loginFailedController = (req, res) => {
+  console.log("login failed")
+  res.send("login failed");
 };
 
-const loginSuccessController = (req, res) => {
-    try{
-
-      if(req.user) return res.status(200).json({success:true, message: "you are logged in", user:req.user})
-    
-
-    }catch(error){
-     return res.status(500).json({success:false, message: error.message})
-
-    }
-}
 
 const logoutController =  (req, res) => {
 
@@ -111,4 +101,4 @@ const logoutController =  (req, res) => {
 //     res.status(200).json({ message: "Email verified successfully. You can now login." });
 //   };
 
-export default {signUpController, loginController, logoutController, profileController, loginSuccessController};
+export default {signUpController, loginController, logoutController, profileController,loginFailedController};

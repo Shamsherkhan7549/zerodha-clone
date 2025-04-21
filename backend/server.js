@@ -31,11 +31,7 @@ const sessionOptions = {
 }
 
 //Middleware
-app.use(cors({
-    origin: process.env.VITE_FRONTEND_URL, // React app URL
-    methods:"GET, POST, PUT, DELETE",
-    credentials: true   
-}));
+app.use(cors());
 
 app.use(bodyParser.json());
 
