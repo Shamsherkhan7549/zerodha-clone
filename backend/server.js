@@ -33,7 +33,7 @@ const sessionOptions = {
 //Middleware
 app.use(cors(
     {
-        origin: "https://zerodha-clone-dashboard-xi.vercel.app",
+        origin: process.env.VITE_DASHOBARD_URL
     }
 ));
 
