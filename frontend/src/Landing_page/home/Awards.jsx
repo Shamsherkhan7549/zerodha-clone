@@ -9,7 +9,7 @@ const Awards = () => {
         <div className='col-lg-6'>
           <img
             className='w-100 h-75'
-            src='../src/assets/images/largestBroker.svg'
+            src='./src/assets/images/largestBroker.svg'
             alt=''
           />
         </div>

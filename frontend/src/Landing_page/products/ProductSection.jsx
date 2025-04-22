@@ -19,8 +19,8 @@ const ProductSection = ({flexDir, image,title,content,link,link2}) => {
                 </p>
 
                 <div>
-                    <a href=""><img src="../src/assets/images/googlePlayBadge.svg" alt="" /></a>
-                    <a className='mx-2' href=""><img src="../src/assets/images/appstoreBadge.svg" alt="" /></a>
+                    <a href=""><img src="./src/assets/images/googlePlayBadge.svg" alt="" /></a>
+                    <a className='mx-2' href=""><img src="./src/assets/images/appstoreBadge.svg" alt="" /></a>
                 </div>
             </div>
             </div>
