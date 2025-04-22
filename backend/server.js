@@ -31,11 +31,7 @@ const sessionOptions = {
 }
 
 //Middleware
-app.use(cors(
-    {
-        origin: process.env.VITE_DASHOBARD_URL
-    }
-));
+app.use(cors());
 
 app.use(bodyParser.json());
 
