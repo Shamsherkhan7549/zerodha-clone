@@ -25,6 +25,14 @@ app.get('/getCookie', (req , res) =>{
     
 })
 
+const sum = (a,b) => {
+    console.log(a+b)
+}
+
+sum(1,2);
+
 app.listen(port, ()=>{
     console.log("Server running on port 8080")
-})
+});
+
+

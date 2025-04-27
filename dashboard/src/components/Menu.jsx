@@ -61,7 +61,7 @@ const Menu = ({username}) => {
   return (
     <div className="menu-container">
       
-      <img src="./src/assets/logo.png" style={{ width: "50px" }} />
+      <img src="/logo.png" style={{ width: "50px" }} />
       <div className="menus">
         <p onClick={handlingMenubar}><i className="fa-solid fa-bars"></i></p>
         <ul style={openMenu ? {right:"8px"}:{right:"-18rem"} }>
