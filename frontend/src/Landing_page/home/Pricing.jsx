@@ -21,7 +21,7 @@ const Pricing = () => {
           <div className=' mutual-pricing d-flex align-items-end justify-content-start'>
             <img
               className='w-50'
-              src='./src/assets/images/pricing0.svg'
+              src='/images/pricing0.svg'
               alt=''
             />
             <p className='zero w-50 text-muted'>
@@ -34,7 +34,7 @@ const Pricing = () => {
           <div className='mutual-pricing d-flex align-items-end justify-content-start'>
             <img
               className='w-50 '
-              src='./src/assets/images/pricing0.svg'
+              src='/images/pricing0.svg'
               alt=''
             />
 
@@ -48,7 +48,7 @@ const Pricing = () => {
           <div className=' mutual-pricing d-flex align-items-end justify-content-start'>
             <img
               className='w-50'
-              src='./src/assets/images/other-trades.svg'
+              src='/images/other-trades.svg'
               alt=''
             />
             <p className='zero w-50 text-muted'>

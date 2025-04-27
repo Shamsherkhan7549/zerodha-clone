@@ -17,7 +17,7 @@ const Stats = () => {
             </div>
             <div className="col-1"></div>   
             <div className="col-md-6 ">
-                <img className='ecosystem w-100' src="./src/assets/images/ecosystem.png" alt="" />
+                <img className='ecosystem w-100' src="/images/ecosystem.png" alt="" />
                 <div className='  d-flex justify-content-end gap-5'>
                     <a href="" className='text-decoration-none'> <span className='mx-2'>Explore our products</span> <i className="fa-solid fa-arrow-right-long"></i></a>
                     <a href="" className='text-decoration-none'><span className='mx-2'>Try Kite demo</span> <i className="fa-solid fa-arrow-right-long"></i></a>
@@ -25,7 +25,7 @@ const Stats = () => {
             </div> 
         </div>
         <div className="row ">
-            <img className=' pressLogo col-8' src="./src/assets/images/pressLogos.png" alt="" />
+            <img className=' pressLogo col-8' src="/images/pressLogos.png" alt="" />
 
         </div>
         

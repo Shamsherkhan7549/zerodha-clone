@@ -5,7 +5,7 @@ const Education = () => {
     <div className='container'>
       <div className="row">
         <div className="col-md-5">
-          <img className='w-100' src="./src/assets/images/education.svg" alt="" />
+          <img className='w-100' src="/images/education.svg" alt="" />
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-6 pt-5 pt-md-0">

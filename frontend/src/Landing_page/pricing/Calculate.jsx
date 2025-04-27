@@ -7,7 +7,7 @@ const Calculate = () => {
     <div className='contaner px-5'>
       <div className='row text-start UC text-muted px-5  py-3'>
         <h5 className='text-center '>
-          <span className='text-primary'>Calculate your costs upfront</span>{" "}
+          <span className='text-primary'>Calculate your costs upfront</span>
           using our brokerage calculator
         </h5>
         <div className='col-md-6 col-12 py-5'>
@@ -19,29 +19,29 @@ const Calculate = () => {
             Charged only on selling side when trading intraday or on F&O.
           </p>
           <p>
-            {" "}
+            
             When trading at Zerodha, STT/CTT can be a lot more than the
             brokerage we charge. Important to keep a tab.
           </p>
           <h6>Transaction/Turnover Charges</h6>
           <p>
-            {" "}
+            
             Charged by exchanges (NSE, BSE, MCX) on the value of your
             transactions.
           </p>
           <p>
-            {" "}
+            
             BSE has revised transaction charges in XC, XD, XT, Z and ZP groups
             to ₹10,000 per crore w.e.f 01.01.2016. (XC and XD groups have been
             merged into a new group X w.e.f 01.12.2017)
           </p>
           <p>
-            {" "}
+            
             BSE has revised transaction charges in SS and ST groups to ₹1,00,000
             per crore of gross turnover.
           </p>
           <p>
-            {" "}
+            
             BSE has revised transaction charges for group A, B and other non
             exclusive scrips (non-exclusive scrips from group E, F, FC, G, GC,
             W, T) at ₹375 per crore of turnover on flat rate basis w.e.f.
@@ -63,26 +63,26 @@ const Calculate = () => {
           </p>
           <h6>NRI brokerage charges </h6>
           <ul>
-            <li> ₹100 per order for futures and options.</li>{" "}
+            <li> ₹100 per order for futures and options.</li>
             <li>
-              {" "}
+              
               For a non-PIS account, 0.5% or ₹100 per executed order for equity
               (whichever is lower)
             </li>
             .
             <li>
-              {" "}
+              
               For a PIS account, 0.5% or ₹200 per executed order for equity
               (whichever is lower).
-            </li>{" "}
+            </li>
             <li>
-              {" "}
+              
               ₹500 + GST as yearly account maintenance charges (AMC) charges.
             </li>
           </ul>
           <h6>Account with debit balance</h6>
           <p>
-            {" "}
+            
             If the account is in debit balance, any order placed will be charged
             ₹40 per executed order instead of ₹20 per executed order.
           </p>
@@ -90,8 +90,8 @@ const Calculate = () => {
           <ul>
             <li>
               Equity and Futures - ₹10 per crore + GST of the traded value.
-            </li>{" "}
-            <li>Options - ₹50 per crore + GST traded value (premium value).</li>{" "}
+            </li>
+            <li>Options - ₹50 per crore + GST traded value (premium value).</li>
             <li>
               Currency - ₹0.05 per lakh + GST of turnover for Futures and ₹2 per
               lakh + GST of premium for Options.
@@ -100,14 +100,14 @@ const Calculate = () => {
           <h6> Margin Trading Facility (MTF)</h6>
           <ul>
             <li>
-              {" "}
+              
               MTF Interest: 0.04% per day (₹40 per lakh) on the funded amount.
               The interest is applied from T+1 day until the day MTF stocks are
               sold.
-            </li>{" "}
+            </li>
             <li>
               MTF Brokerage: 0.3% or Rs. 20/executed order, whichever is lower.
-            </li>{" "}
+            </li>
             <li>MTF pledge charge: ₹30 + GST per pledge request per ISIN.</li>
           </ul>
         </div>

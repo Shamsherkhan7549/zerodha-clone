@@ -9,7 +9,7 @@ const Awards = () => {
         <div className='col-lg-6'>
           <img
             className='w-100 h-75'
-            src='./src/assets/images/largestBroker.svg'
+            src='/images/largestBroker.svg'
             alt=''
           />
         </div>
@@ -39,7 +39,7 @@ const Awards = () => {
 
             <img
               className='mt-3 col-12'
-              src='../src/assets/images/pressLogos.png'
+              src='./images/pressLogos.png'
               alt=''
             />
           </div>

@@ -9,7 +9,7 @@ const Team = () => {
         <div className='col-md-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/nithinKamath.jpg'
+            src='/images/nithinKamath.jpg'
             alt=''
           />
           <h4 className='mt-4'>Nithin Kamath</h4>
@@ -49,7 +49,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Nikhil.jpg'
+            src='/images/Nikhil.jpg'
             alt=''
           />
           <h4 className='mt-4'>Nithin Kamath</h4>
@@ -79,7 +79,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Kailash.jpg'
+            src='/images/Kailash.jpg'
             alt=''
           />
           <h4 className='mt-4'>Dr. Kailash Nadh</h4>
@@ -110,7 +110,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Venu.jpg'
+            src='/images/Venu.jpg'
             alt=''
           />
           <h4 className='mt-4'>Venu Madhav</h4>
@@ -138,7 +138,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Hanan.jpg'
+            src='/images/Hanan.jpg'
             alt=''
           />
           <h4 className='mt-4'>Henan Delvi</h4>
@@ -166,7 +166,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Seema.jpg'
+            src='/images/Seema.jpg'
             alt=''
           />
           <h4 className='mt-4'>Seema Patil</h4>
@@ -194,7 +194,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/karthik.jpg'
+            src='/images/karthik.jpg'
             alt=''
           />
           <h4 className='mt-4'>Karthik Rangappa</h4>
@@ -222,7 +222,7 @@ const Team = () => {
         <div className='col-md-4 col-sm-6 col-12 py-5 text-center'>
           <img
             className='rounded-circle w-75'
-            src='../src/assets/images/Austin.jpg'
+            src='/images/Austin.jpg'
             alt=''
           />
           <h4 className='mt-4'>Austin Prakesh</h4>
